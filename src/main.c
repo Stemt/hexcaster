@@ -480,7 +480,7 @@ void* nhl_init(int argc, char **argv){
   nob_write_entire_file("test.data", &test_data, sizeof(TestData));
 
   SetConfigFlags(FLAG_WINDOW_RESIZABLE);
-  InitWindow(800, 600, "binspector");
+  InitWindow(800, 600, "Hexcaster");
   SetTargetFPS(60);
   return app;
 }
